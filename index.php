@@ -94,7 +94,7 @@
                 </div>
                 </div>
                 <div class="card-body">
-                    <div class="accordion accordion-flush" id="accordionFlushExample2">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="flush-headingThree">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
@@ -140,6 +140,86 @@
                 </div>
             </div>
         </div>
+    </div>
+        <div class="row row-cols-1 row-cols-md-2">
+        <div class="col mt-4">
+            <div class="card shadow">
+                <div class="card-header">
+                    <div class="row">
+                        <div class="col">
+                            <span style="font-size: 1.5em;"><b>Фильтры</b></span>
+                        </div>
+                        <div class="col text-end pt-1">
+                            <a href="#" class="pe-3"><img src="assets/img/svg/plus.svg" alt="Add application" title="Добавить" style="width: 30px; height: 30px;"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="accordion accordion-flush" id="accordionFlushExample5">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-heading5">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse5" aria-expanded="false" aria-controls="flush-collapse5">
+                                    Заменить:   <span class="badge bg-secondary ms-1">11</span>
+                                </button>
+                            </h2>
+                            <div id="flush-collapse5" class="accordion-collapse collapse" aria-labelledby="flush-heading5" data-bs-parent="#accordionFlushExample5">
+                                <div class="accordion-body">
+                                    <ol>
+                                        <li>First</li>
+                                        <li>Second</li>
+                                        <li>Third</li>
+                                        <li>First</li>
+                                        <li>Second</li>
+                                        <li>Third</li>
+                                        <li>Fourth</li>
+                                        <li>First</li>
+                                        <li>Second</li>
+                                        <li>Third</li>
+                                        <li>Fourth</li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="col mt-4">
+                <div class="card shadow">
+                    <div class="card-header">
+                        <div class="row">
+                            <div class="col">
+                                <span style="font-size: 1.5em;"><b>Ремонт</b></span>
+                            </div>
+                            <div class="col text-end pt-1">
+                                <a href="#" class="pe-3"><img src="assets/img/svg/plus.svg" alt="Add application" title="Добавить" style="width: 30px; height: 30px;"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="accordion accordion-flush" id="accordionFlushExample6">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-heading6">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse6" aria-expanded="false" aria-controls="flush-collapse6">
+                                        Запланирован:   <span class="badge bg-secondary ms-1">5</span>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapse6" class="accordion-collapse collapse" aria-labelledby="flush-heading6" data-bs-parent="#accordionFlushExample6">
+                                    <div class="accordion-body">
+                                        <ol>
+                                            <li>First</li>
+                                            <li>Second</li>
+                                            <li>Third</li>
+                                            <li>First</li>
+                                            <li>Second</li>
+                                        </ol>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </div>
 </div>
 <nav class="navbar fixed-bottom" style="
@@ -189,12 +269,12 @@
                         <div class="col-12 text-center mb-1">
                             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                         </div>
-                        <a href="#" class="btn d-block" style="color: white; font-size: 1.4em; font-weight: 600;">Заявки</a>
-                        <a href="#" class="btn d-block" style="color: white; font-size: 1.4em; font-weight: 600;">Задачи</a>
-                        <a href="#" class="btn d-block" style="color: white; font-size: 1.4em; font-weight: 600;">Ремонт</a>
-                        <a href="#" class="btn d-block" style="color: white; font-size: 1.4em; font-weight: 600;">Акты</a>
-                        <a href="#" class="btn d-block" style="color: white; font-size: 1.4em; font-weight: 600;">Оборудование</a>
-                        <a href="#" class="btn d-block" style="color: white; font-size: 1.4em; font-weight: 600;">ХОВС</a>
+                        <a href="#" class="btn d-block" style="font-size: 1.4em; font-weight: 600;">Заявки</a>
+                        <a href="#" class="btn d-block" style="font-size: 1.4em; font-weight: 600;">Задачи</a>
+                        <a href="#" class="btn d-block" style="font-size: 1.4em; font-weight: 600;">Ремонт</a>
+                        <a href="#" class="btn d-block" style="font-size: 1.4em; font-weight: 600;">Акты</a>
+                        <a href="./views/equipments/" class="btn d-block" style="font-size: 1.4em; font-weight: 600;">Оборудование</a>
+                        <a href="#" class="btn d-block" style="font-size: 1.4em; font-weight: 600;">ХОВС</a>
         </div>
         <div class="offcanvas offcanvas-bottom pt-3" tabindex="-1" id="offcanvasBottom2" aria-labelledby="offcanvasBottomLabel2"
              style="
@@ -205,9 +285,9 @@
             <div class="col-12 text-center mb-1">
                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
-            <a href="#" class="btn d-block" style="color: white; font-size: 1.4em; font-weight: 600;">Арендаторы</a>
-            <a href="#" class="btn d-block" style="color: white; font-size: 1.4em; font-weight: 600;">ТРК</a>
-            <a href="#" class="btn d-block" style="color: white; font-size: 1.4em; font-weight: 600;">Счетчики</a>
+            <a href="#" class="btn d-block" style="font-size: 1.4em; font-weight: 600;">Арендаторы</a>
+            <a href="#" class="btn d-block" style="font-size: 1.4em; font-weight: 600;">ТРК</a>
+            <a href="#" class="btn d-block" style="font-size: 1.4em; font-weight: 600;">Счетчики</a>
         </div>
         <div class="offcanvas offcanvas-bottom pt-3" tabindex="-1" id="offcanvasBottom3" aria-labelledby="offcanvasBottomLabel3"
              style="
@@ -218,8 +298,8 @@
             <div class="col-12 text-center mb-1">
                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
-            <a href="#" class="btn d-block" style="color: white; font-size: 1.4em; font-weight: 600;">Склад</a>
-            <a href="#" class="btn d-block" style="color: white; font-size: 1.4em; font-weight: 600;">Заказы</a>
+            <a href="#" class="btn d-block" style="font-size: 1.4em; font-weight: 600;">Склад</a>
+            <a href="#" class="btn d-block" style="font-size: 1.4em; font-weight: 600;">Заказы</a>
         </div>
     </div>
 </nav>

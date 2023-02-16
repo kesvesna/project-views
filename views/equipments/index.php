@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Оборудование</title>
+    <title>Каталог оборудования</title>
     <link rel="icon" type="image/x-icon" href="../../assets/img/svg/favicon.svg">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -49,7 +49,7 @@
                     <h6 class="card-subtitle mb-2 text-muted">Европолис (Лесная)</h6>
                     <h6 class="card-subtitle mb-2 text-muted">Вентиляция</h6>
                     <p class="mb-1 text-muted">Помещение: ВК-12</p>
-                    <a href="#">Посмотреть</a>
+                    <a href="./show.php">Посмотреть</a>
                 </div>
             </div>
         </div>
