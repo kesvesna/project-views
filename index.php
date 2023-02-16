@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>Главная</title>
-    <link rel="icon" type="image/x-icon" href="./assets/img/svg/favicon.svg">
+    <link rel="icon" type="image/x-icon" href="assets/img/svg/favicon.svg">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -13,9 +13,9 @@
     <meta property="og:url" content="">
     <meta property="og:image" content="">
 
-    <link rel="stylesheet" href="./assets/css/normalize.css">
-    <link rel="stylesheet" href="./assets/css/main.css">
-    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 </head>
 <body>
 <div class="container" style="margin-bottom: 10vh;">
@@ -28,7 +28,7 @@
                         <span style="font-size: 1.5em;"><b>Заявки</b></span>
                     </div>
                     <div class="col text-end pt-1">
-                        <a href="#" class="pe-3"><img src="./assets/img/svg/plus.svg" alt="Add application" title="Добавить" style="width: 30px; height: 30px;"></a>
+                        <a href="#" class="pe-3"><img src="assets/img/svg/plus.svg" alt="Add application" title="Добавить" style="width: 30px; height: 30px;"></a>
                     </div>
                 </div>
                 </div>
@@ -89,7 +89,7 @@
                         <span style="font-size: 1.5em;"><b>Задачи</b></span>
                     </div>
                     <div class="col text-end pt-1">
-                        <a href="#" class="pe-3"><img src="./assets/img/svg/plus.svg" alt="Add application" title="Добавить" style="width: 30px; height: 30px;"></a>
+                        <a href="#" class="pe-3"><img src="assets/img/svg/plus.svg" alt="Add application" title="Добавить" style="width: 30px; height: 30px;"></a>
                     </div>
                 </div>
                 </div>
@@ -152,30 +152,30 @@
         <div class="row row-cols-5">
             <div class="col">
         <a class="btn col-12" href="index.php">
-            <img src="./assets/img/svg/home.svg" alt="Home picture" width="24" height="24" title="На главную">
+            <img src="assets/img/svg/home.svg" alt="Home picture" width="24" height="24" title="На главную">
         </a>
             </div>
             <div class="col">
             <button class="btn col-12" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom" title="Заявки, задачи, ремонт, акты, оборудование, ХОВС">
 <!--                <span class="navbar-toggler-icon"></span>-->
-                <img src="./assets/img/svg/maintenance.svg" alt="Equipment picture" width="24" height="24">
+                <img src="assets/img/svg/maintenance.svg" alt="Equipment picture" width="24" height="24">
             </button>
             </div>
             <div class="col">
                 <button class="btn col-12" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom2" aria-controls="offcanvasBottom2">
                     <!--                <span class="navbar-toggler-icon"></span>-->
-                    <img src="./assets/img/svg/architecture.svg" alt="Architecture picture" width="24" height="24" title="Помещения, арендаторы, счетчики">
+                    <img src="assets/img/svg/architecture.svg" alt="Architecture picture" width="24" height="24" title="Помещения, арендаторы, счетчики">
                 </button>
             </div>
             <div class="col">
                 <button class="btn col-12" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom3" aria-controls="offcanvasBottom3">
                     <!--                <span class="navbar-toggler-icon"></span>-->
-                    <img src="./assets/img/svg/storage.svg" alt="Storage picture" width="24" height="24" title="Склад, запчасти">
+                    <img src="assets/img/svg/storage.svg" alt="Storage picture" width="24" height="24" title="Склад, запчасти">
                 </button>
             </div>
             <div class="col">
                 <button class="btn col-12" onclick="history.back()">
-                    <img src="./assets/img/svg/back.svg" alt="Home picture" width="24" height="24" title="Назад">
+                    <img src="assets/img/svg/back.svg" alt="Home picture" width="24" height="24" title="Назад">
                 </button>
             </div>
         </div>
@@ -223,6 +223,6 @@
         </div>
     </div>
 </nav>
-<script src="./assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
