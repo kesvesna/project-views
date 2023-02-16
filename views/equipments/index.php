@@ -21,18 +21,15 @@
 <div class="container pt-5" style="margin-bottom: 10vh;">
     <div class="row row-cols-1 row-cols-md-4">
         <div class="col mb-2">
-            <input class="form-control form-control-sm" list="datalistOptions" id="exampleDataList" placeholder="Помещение ...">
-            <datalist id="datalistOptions">
-                <option value="ВК-12">
-                <option value="353">
-                <option value="А5">
-                <option value="B4">
-                <option value="C4">
-            </datalist>
-        </div>
-        <div class="col mb-2">
-            <input class="form-control form-control-sm" list="datalistOptions2" id="exampleDataList" placeholder="Оборудование ...">
-            <datalist id="datalistOptions2">
+            <input  style="
+                                        background: rgba(248, 236, 255, 0.8);
+                                        border-radius: 1px;
+                                        border: 1px solid rgba(255, 255, 255, 0.4);"
+                    class="form-control form-control-sm" list="datalistOptions2" id="exampleDataList" placeholder="Оборудование ...">
+            <datalist id="datalistOptions2"  style="
+                                        background: rgba(248, 236, 255, 0.8);
+                                        border-radius: 1px;
+                                        border: 1px solid rgba(255, 255, 255, 0.4);">
                 <option value="Светильник 1">
                 <option value="ПВ-01-М">
                 <option value="Эскалатор 5">
@@ -43,37 +40,197 @@
     </div>
     <div class="row row-cols-1 row-cols-md-4 mt-1">
         <div class="col mt-2">
-            <div class="card">
+            <div class="card" style="
+                                        background: rgba(248, 236, 255, 0.8);
+                                        border-radius: 1px;
+                                        border: 1px solid rgba(255, 255, 255, 0.4);">
                 <div class="card-body">
                     <h5 class="card-title">ПВ-09-М</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Европолис (Лесная)</h6>
                     <h6 class="card-subtitle mb-2 text-muted">Вентиляция</h6>
-                    <p class="card-text">Помещение: ВК-12</p>
-                    <p class="card-text">Потребитель: галерея</p>
-                    <p class="card-text">Последнее ТО: 12-02-2023</p>
-                    <a href="#" class="card-link">Посмотреть</a>
+                    <p class="mb-1 text-muted">Помещение: ВК-12</p>
+                    <a href="#">Посмотреть</a>
                 </div>
             </div>
         </div>
         <div class="col mt-2">
-            <div class="card">
+            <div class="card" style="
+                                        background: rgba(248, 236, 255, 0.8);
+                                        border-radius: 1px;
+                                        border: 1px solid rgba(255, 255, 255, 0.4);">
                 <div class="card-body">
                     <h5 class="card-title">ХМ-1</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Академ Парк</h6>
                     <h6 class="card-subtitle mb-2 text-muted">Холодоснабжение</h6>
-                    <p class="card-text">Помещение: кровля</p>
-                    <p class="card-text">Потребитель: фанкойлы</p>
-                    <p class="card-text">Последнее ТО: 15-02-2023</p>
+                    <p>Помещение: кровля</p>
+                    <a href="#">Посмотреть</a>
+                </div>
+            </div>
+        </div>
+        <div class="col mt-2">
+            <div class="card" style="
+                                        background: rgba(248, 236, 255, 0.8);
+                                        border-radius: 1px;
+                                        border: 1px solid rgba(255, 255, 255, 0.4);">
+                <div class="card-body">
+                    <h5 class="card-title">ПВ-09-М</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Гудзон</h6>
+                    <h6 class="card-subtitle mb-2 text-muted">Вентиляция</h6>
+                    <p class="card-text">Помещение: ВК-12</p>
                     <a href="#" class="card-link">Посмотреть</a>
                 </div>
             </div>
         </div>
         <div class="col mt-2">
-            <div class="card">
+            <div class="card" style="
+                                        background: rgba(248, 236, 255, 0.8);
+                                        border-radius: 1px;
+                                        border: 1px solid rgba(255, 255, 255, 0.4);">
                 <div class="card-body">
                     <h5 class="card-title">ПВ-09-М</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Гудзон</h6>
                     <h6 class="card-subtitle mb-2 text-muted">Вентиляция</h6>
                     <p class="card-text">Помещение: ВК-12</p>
-                    <p class="card-text">Потребитель: галерея</p>
-                    <p class="card-text">Последнее ТО: 12-02-2023</p>
+                    <a href="#" class="card-link">Посмотреть</a>
+                </div>
+            </div>
+        </div>
+        <div class="col mt-2">
+            <div class="card" style="
+                                        background: rgba(248, 236, 255, 0.8);
+                                        border-radius: 1px;
+                                        border: 1px solid rgba(255, 255, 255, 0.4);">
+                <div class="card-body">
+                    <h5 class="card-title">ПВ-09-М</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Гудзон</h6>
+                    <h6 class="card-subtitle mb-2 text-muted">Вентиляция</h6>
+                    <p class="card-text">Помещение: ВК-12</p>
+                    <a href="#" class="card-link">Посмотреть</a>
+                </div>
+            </div>
+        </div>
+        <div class="col mt-2">
+            <div class="card" style="
+                                        background: rgba(248, 236, 255, 0.8);
+                                        border-radius: 1px;
+                                        border: 1px solid rgba(255, 255, 255, 0.4);">
+                <div class="card-body">
+                    <h5 class="card-title">ПВ-09-М</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Гудзон</h6>
+                    <h6 class="card-subtitle mb-2 text-muted">Вентиляция</h6>
+                    <p class="card-text">Помещение: ВК-12</p>
+                    <a href="#" class="card-link">Посмотреть</a>
+                </div>
+            </div>
+        </div>
+        <div class="col mt-2">
+            <div class="card" style="
+                                        background: rgba(248, 236, 255, 0.8);
+                                        border-radius: 1px;
+                                        border: 1px solid rgba(255, 255, 255, 0.4);">
+                <div class="card-body">
+                    <h5 class="card-title">ПВ-09-М</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Гудзон</h6>
+                    <h6 class="card-subtitle mb-2 text-muted">Вентиляция</h6>
+                    <p class="card-text">Помещение: ВК-12</p>
+                    <a href="#" class="card-link">Посмотреть</a>
+                </div>
+            </div>
+        </div>
+        <div class="col mt-2">
+            <div class="card" style="
+                                        background: rgba(248, 236, 255, 0.8);
+                                        border-radius: 1px;
+                                        border: 1px solid rgba(255, 255, 255, 0.4);">
+                <div class="card-body">
+                    <h5 class="card-title">ПВ-09-М</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Гудзон</h6>
+                    <h6 class="card-subtitle mb-2 text-muted">Вентиляция</h6>
+                    <p class="card-text">Помещение: ВК-12</p>
+                    <a href="#" class="card-link">Посмотреть</a>
+                </div>
+            </div>
+        </div>
+        <div class="col mt-2">
+            <div class="card" style="
+                                        background: rgba(248, 236, 255, 0.8);
+                                        border-radius: 1px;
+                                        border: 1px solid rgba(255, 255, 255, 0.4);">
+                <div class="card-body">
+                    <h5 class="card-title">ПВ-09-М</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Гудзон</h6>
+                    <h6 class="card-subtitle mb-2 text-muted">Вентиляция</h6>
+                    <p class="card-text">Помещение: ВК-12</p>
+                    <a href="#" class="card-link">Посмотреть</a>
+                </div>
+            </div>
+        </div>
+        <div class="col mt-2">
+            <div class="card" style="
+                                        background: rgba(248, 236, 255, 0.8);
+                                        border-radius: 1px;
+                                        border: 1px solid rgba(255, 255, 255, 0.4);">
+                <div class="card-body">
+                    <h5 class="card-title">ПВ-09-М</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Гудзон</h6>
+                    <h6 class="card-subtitle mb-2 text-muted">Вентиляция</h6>
+                    <p class="card-text">Помещение: ВК-12</p>
+                    <a href="#" class="card-link">Посмотреть</a>
+                </div>
+            </div>
+        </div>
+        <div class="col mt-2">
+            <div class="card" style="
+                                        background: rgba(248, 236, 255, 0.8);
+                                        border-radius: 1px;
+                                        border: 1px solid rgba(255, 255, 255, 0.4);">
+                <div class="card-body">
+                    <h5 class="card-title">ПВ-09-М</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Гудзон</h6>
+                    <h6 class="card-subtitle mb-2 text-muted">Вентиляция</h6>
+                    <p class="card-text">Помещение: ВК-12</p>
+                    <a href="#" class="card-link">Посмотреть</a>
+                </div>
+            </div>
+        </div>
+        <div class="col mt-2">
+            <div class="card" style="
+                                        background: rgba(248, 236, 255, 0.8);
+                                        border-radius: 1px;
+                                        border: 1px solid rgba(255, 255, 255, 0.4);">
+                <div class="card-body">
+                    <h5 class="card-title">ПВ-09-М</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Гудзон</h6>
+                    <h6 class="card-subtitle mb-2 text-muted">Вентиляция</h6>
+                    <p class="card-text">Помещение: ВК-12</p>
+                    <a href="#" class="card-link">Посмотреть</a>
+                </div>
+            </div>
+        </div>
+        <div class="col mt-2">
+            <div class="card" style="
+                                        background: rgba(248, 236, 255, 0.8);
+                                        border-radius: 1px;
+                                        border: 1px solid rgba(255, 255, 255, 0.4);">
+                <div class="card-body">
+                    <h5 class="card-title">ПВ-09-М</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Гудзон</h6>
+                    <h6 class="card-subtitle mb-2 text-muted">Вентиляция</h6>
+                    <p class="card-text">Помещение: ВК-12</p>
+                    <a href="#" class="card-link">Посмотреть</a>
+                </div>
+            </div>
+        </div>
+        <div class="col mt-2">
+            <div class="card" style="
+                                        background: rgba(248, 236, 255, 0.8);
+                                        border-radius: 1px;
+                                        border: 1px solid rgba(255, 255, 255, 0.4);">
+                <div class="card-body">
+                    <h5 class="card-title">ПВ-09-М</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Гудзон</h6>
+                    <h6 class="card-subtitle mb-2 text-muted">Вентиляция</h6>
+                    <p class="card-text">Помещение: ВК-12</p>
                     <a href="#" class="card-link">Посмотреть</a>
                 </div>
             </div>
@@ -81,7 +238,7 @@
     </div>
 </div>
 <nav class="navbar fixed-bottom" style="
-                                        background: rgba(228, 181, 255, 0.8);
+                                        background: rgba(248, 236, 255, 0.8);
                                         border-radius: 1px;
                                         border: 1px solid rgba(255, 255, 255, 0.4);">
     <div class="container-fluid">
@@ -120,44 +277,44 @@
         </div>
         <div class="offcanvas offcanvas-bottom pt-3" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel"
              style="
-             background: rgba(223, 168, 255, 0.9);
+             background: rgba(243, 224, 255, 0.9);
              border-radius: 1px;
              border: 1px solid rgba(255, 255, 255, 0.4);
              height: 55vh;">
             <div class="col-12 text-center mb-1">
                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
-            <a href="#" class="btn d-block" style="color: white; font-size: 1.4em; font-weight: 600;">Заявки</a>
-            <a href="#" class="btn d-block" style="color: white; font-size: 1.4em; font-weight: 600;">Задачи</a>
-            <a href="#" class="btn d-block" style="color: white; font-size: 1.4em; font-weight: 600;">Ремонт</a>
-            <a href="#" class="btn d-block" style="color: white; font-size: 1.4em; font-weight: 600;">Акты</a>
-            <a href="#" class="btn d-block" style="color: white; font-size: 1.4em; font-weight: 600;">Оборудование</a>
-            <a href="#" class="btn d-block" style="color: white; font-size: 1.4em; font-weight: 600;">ХОВС</a>
+            <a href="#" class="btn d-block" style="font-size: 1.4em; font-weight: 600;">Заявки</a>
+            <a href="#" class="btn d-block" style="font-size: 1.4em; font-weight: 600;">Задачи</a>
+            <a href="#" class="btn d-block" style="font-size: 1.4em; font-weight: 600;">Ремонт</a>
+            <a href="#" class="btn d-block" style="font-size: 1.4em; font-weight: 600;">Акты</a>
+            <a href="#" class="btn d-block" style="font-size: 1.4em; font-weight: 600;">Оборудование</a>
+            <a href="#" class="btn d-block" style="font-size: 1.4em; font-weight: 600;">ХОВС</a>
         </div>
         <div class="offcanvas offcanvas-bottom pt-3" tabindex="-1" id="offcanvasBottom2" aria-labelledby="offcanvasBottomLabel2"
              style="
-             background: rgba(223, 168, 255, 0.9);
+             background: rgba(243, 224, 255, 0.9);
              border-radius: 1px;
              border: 1px solid rgba(255, 255, 255, 0.4);
              height: 35vh;">
             <div class="col-12 text-center mb-1">
                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
-            <a href="#" class="btn d-block" style="color: white; font-size: 1.4em; font-weight: 600;">Арендаторы</a>
-            <a href="#" class="btn d-block" style="color: white; font-size: 1.4em; font-weight: 600;">ТРК</a>
-            <a href="#" class="btn d-block" style="color: white; font-size: 1.4em; font-weight: 600;">Счетчики</a>
+            <a href="#" class="btn d-block" style="font-size: 1.4em; font-weight: 600;">Арендаторы</a>
+            <a href="#" class="btn d-block" style="font-size: 1.4em; font-weight: 600;">Помещения</a>
+            <a href="#" class="btn d-block" style="font-size: 1.4em; font-weight: 600;">Счетчики</a>
         </div>
         <div class="offcanvas offcanvas-bottom pt-3" tabindex="-1" id="offcanvasBottom3" aria-labelledby="offcanvasBottomLabel3"
              style="
-             background: rgba(223, 168, 255, 0.9);
+             background: rgba(243, 224, 255, 0.9);
              border-radius: 1px;
              border: 1px solid rgba(255, 255, 255, 0.4);
              height: 25vh;">
             <div class="col-12 text-center mb-1">
                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
-            <a href="#" class="btn d-block" style="color: white; font-size: 1.4em; font-weight: 600;">Склад</a>
-            <a href="#" class="btn d-block" style="color: white; font-size: 1.4em; font-weight: 600;">Заказы</a>
+            <a href="#" class="btn d-block" style="font-size: 1.4em; font-weight: 600;">Склад</a>
+            <a href="#" class="btn d-block" style="font-size: 1.4em; font-weight: 600;">Заказы</a>
         </div>
     </div>
 </nav>
